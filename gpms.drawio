@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-01T08:13:53.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="6hi2wl1nH9K5tHAWl43d" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-01T09:14:53.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="MC836kwqsFY9bnoDuJ3F" version="24.4.13" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1426" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,19 +56,148 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EVdvUObwMmmUspwIrHDG-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="80" y="380" width="100" height="300" as="geometry" />
+        <mxCell id="EVdvUObwMmmUspwIrHDG-1" value="&lt;u&gt;:学生&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="100" height="460" as="geometry" />
         </mxCell>
         <mxCell id="EVdvUObwMmmUspwIrHDG-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="EVdvUObwMmmUspwIrHDG-1">
-          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="EVdvUObwMmmUspwIrHDG-3" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="EVdvUObwMmmUspwIrHDG-1" target="EVdvUObwMmmUspwIrHDG-2">
+        <mxCell id="EVdvUObwMmmUspwIrHDG-5" value="&lt;u&gt;:选题界面&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="EVdvUObwMmmUspwIrHDG-5">
+          <mxGeometry x="45" y="70" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-7" value="&lt;u&gt;:选题控制器&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="380" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="EVdvUObwMmmUspwIrHDG-7">
+          <mxGeometry x="45" y="100" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="EVdvUObwMmmUspwIrHDG-7">
+          <mxGeometry x="45" y="260" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-9" value="&lt;u&gt;:题目&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="100" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="EVdvUObwMmmUspwIrHDG-9">
+          <mxGeometry x="45" y="130" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-10" value="1.进入界面" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-2" target="EVdvUObwMmmUspwIrHDG-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-15" y="70" as="sourcePoint" />
+            <mxPoint x="130" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="190" y="450" />
+            </Array>
+            <mxPoint x="300" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EVdvUObwMmmUspwIrHDG-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="EVdvUObwMmmUspwIrHDG-1">
-          <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
+        <mxCell id="EVdvUObwMmmUspwIrHDG-11" value="2.获取题目列表" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-6" target="EVdvUObwMmmUspwIrHDG-8">
+          <mxGeometry x="0.0069" relative="1" as="geometry">
+            <mxPoint x="300" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="370" y="480" />
+            </Array>
+            <mxPoint x="450" y="470" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-13" value="5.显示题目列表" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-8" target="EVdvUObwMmmUspwIrHDG-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="529.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="580" />
+            </Array>
+            <mxPoint x="425" y="529.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-14" value="6.提交选题" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-2" target="EVdvUObwMmmUspwIrHDG-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="540" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="205" y="610" />
+            </Array>
+            <mxPoint x="280" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-16" value="&lt;u&gt;:选题记录&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="380" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="EVdvUObwMmmUspwIrHDG-16">
+          <mxGeometry x="45" y="290" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-18" value="3.获取可选题目" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-8" target="EVdvUObwMmmUspwIrHDG-12">
+          <mxGeometry x="0.0069" relative="1" as="geometry">
+            <mxPoint x="450" y="570" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="500" y="510" />
+            </Array>
+            <mxPoint x="595" y="570" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-19" value="4.返回题目" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-12" target="EVdvUObwMmmUspwIrHDG-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="550" />
+            </Array>
+            <mxPoint x="570" y="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-21" value="7.选题" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-6" target="EVdvUObwMmmUspwIrHDG-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="340" y="640" />
+            </Array>
+            <mxPoint x="400" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-24" value="8.检查学生是否已选题" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-20" target="EVdvUObwMmmUspwIrHDG-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="500" y="670" />
+            </Array>
+            <mxPoint x="565" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-25" value="9.返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-17" target="EVdvUObwMmmUspwIrHDG-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="502.5" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="582.5" y="700" />
+            </Array>
+            <mxPoint x="637.5" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-26" value="10.创建选题记录" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="432.5" y="730" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="505" y="730" />
+            </Array>
+            <mxPoint x="707.5" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-27" value="11.返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-17" target="EVdvUObwMmmUspwIrHDG-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="432.5" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="585" y="760" />
+            </Array>
+            <mxPoint x="707.5" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVdvUObwMmmUspwIrHDG-29" value="12.返回选题结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="EVdvUObwMmmUspwIrHDG-20" target="EVdvUObwMmmUspwIrHDG-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="790" />
+            </Array>
+            <mxPoint x="425" y="770" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
